@@ -66,7 +66,7 @@ func query(word string, sign string) {
 }
 
 func main() {
-	word := "hello"
-	sign := "54706.276099"
+	word := "present"
+	sign := "612796.899725"
 	query(word, sign)
 }
