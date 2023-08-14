@@ -10,7 +10,7 @@ import (
 
 func main() {
 	client := &http.Client{}
-	var data = strings.NewReader(`from=en&to=zh&query=hello&transtype=realtime&simple_means_flag=3&sign=54706.276099&token=a28f71253ec1bea6d4ab1d9b330ce8f7&domain=common&ts=1692004656367`)
+	var data = strings.NewReader(`from=en&to=zh&query=nice&transtype=realtime&simple_means_flag=3&sign=54706.276099&token=a28f71253ec1bea6d4ab1d9b330ce8f7&domain=common&ts=1692004656367`)
 	req, err := http.NewRequest("POST", "https://fanyi.baidu.com/v2transapi?from=en&to=zh", data)
 	if err != nil {
 		log.Fatal(err)
